@@ -1,0 +1,21 @@
+# repo-context ignore file
+# Syntax same as .gitignore
+
+# Build artifacts
+target/
+*.exe
+*.dll
+*.so
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Large assets (example)
+assets/textures/*.png
+*.zip
+*.tar.gz
